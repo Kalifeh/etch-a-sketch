@@ -1,0 +1,62 @@
+
+:root{
+    --black-color: #000;
+    --white-color:#fff;
+    --red-color:#ff0000;
+    --blue-color:#0000ff;
+    --green-color:#00ff00;
+    --yellow-color:#ffff00;
+    --magent-color:#ff00ff;
+    --cian-color:#00ffff;
+    --violet-color:#8800ff;
+    --orange-color:#ff8800;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 209, 123);
+}
+.choose-color{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 60px;
+}
+
+.board{
+    width: 320px;
+    height: 320px;
+    background-color: white;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.reset-button,.add-squares{
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    margin-top: 20px;
+    border-radius:5px;
+    color: black;
+    background-color: rgb(245, 222, 179);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.add-squares{
+    width: 200px;
+}
+
+.board-box:hover{
+    background-color: red;
+}
